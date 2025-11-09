@@ -44,7 +44,7 @@
 2.  **ผู้ดูแลระบบ (Admin)**:
     *   **Admin Console (Local)**: ใช้สำหรับเข้า Console (`~`) และ Admin Panel (`F2`)
         *   **Username เริ่มต้น**: `admin` (สามารถเปลี่ยนได้ในการตั้งค่า Local)
-        *   **Password เริ่มต้น**: ไม่มี (ต้องตั้งค่าครั้งแรกในหน้าต่างตั้งค่า Local)
+        *   **Password เริ่มต้น**: `admin1234` (ต้องตั้งค่าครั้งแรกใน .ini หรือ หน้าต่างตั้งค่า Local)
     *   **Admin (Server)**: ใช้สำหรับเข้า Admin Panel (`F3`)
         *   **Username เริ่มต้น**: `admin`
         *   **Password เริ่มต้น**: `admin` (จะถูกสร้างขึ้นเมื่อใช้คำสั่ง `db init-server` ใน Console เป็นครั้งแรก)
