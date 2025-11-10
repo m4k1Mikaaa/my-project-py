@@ -110,11 +110,9 @@ Console เป็นเครื่องมือสำหรับนักพ
     ในกรณีที่มีบางไลบรารีที่ไม่สามารถติดตั้งผ่าน Poetry ได้ (ซึ่งเกิดขึ้นไม่บ่อย) คุณสามารถใช้ `pip` ภายใน `poetry shell` ได้โดยตรง:
 
     ```bash
-    # ตรวจสอบให้แน่ใจว่าคุณอยู่ใน poetry shell ก่อน
     pip install some-package
     ```
     ```bash
-    # 
     pip install cryptography 
     ```
     หรือรันผ่าน `poetry run`:
