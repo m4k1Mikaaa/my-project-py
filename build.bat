@@ -28,7 +28,7 @@ echo Running PyInstaller...
 echo This may take a few minutes.
 echo.
 
-poetry run pyinstaller Mika_Rental.spec --noconfirm --clean
+poetry run pyinstaller mika_rental.spec --noconfirm --clean
 
 if %errorlevel% neq 0 (
     echo.
