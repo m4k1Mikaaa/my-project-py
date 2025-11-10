@@ -113,7 +113,10 @@ Console เป็นเครื่องมือสำหรับนักพ
     # ตรวจสอบให้แน่ใจว่าคุณอยู่ใน poetry shell ก่อน
     pip install some-package
     ```
-
+    ```bash
+    # 
+    pip install cryptography 
+    ```
     หรือรันผ่าน `poetry run`:
 
     ```bash
