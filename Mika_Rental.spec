@@ -8,10 +8,7 @@ a = Analysis(
     # --- FIX: Explicitly include pyzbar's dependent DLLs ---
     # This collects libzbar-64.dll, libiconv.dll, etc., and adds them to the build.
     binaries=collect_dynamic_libs('pyzbar'),
-    datas=[
-        # --- นี่คือส่วนสำคัญที่เพิ่มเข้ามา ---
-        # บอกให้ PyInstaller คัดลอกโฟลเดอร์ app_images และ fonts 
-        # ไปไว้ในโปรแกรมที่ build เสร็จแล้ว        
+    datas=[        
         ('src/app_image', 'app_image'),
         ('src/fonts', 'fonts')
     ],
@@ -51,4 +48,5 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     icon='src\\app_image\\icon.ico',
+
 )
