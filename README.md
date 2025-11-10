@@ -83,8 +83,8 @@ Console เป็นเครื่องมือสำหรับนักพ
 1.  **Clone a repository**
 
     ```bash
-    git clone https://github.com/your-username/Mika_Rental.git
-    cd Mika_Rental
+    git clone https://github.com/m4k1Mikaaa/my-project-py.git
+    cd .\my-project-py\
     ```
 
 2.  **ติดตั้ง Dependencies ผ่าน Poetry**
